@@ -18,10 +18,10 @@ app.get("/medium-feed", async (req, res) => {
     }
 });
 
-// Set up the default route
+// Default Route for Testing
 app.get("/", (req, res) => {
-    res.send("Medium Blog Backend is Running!");
+    res.send("✅ Medium Blog Backend is Running!");
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
