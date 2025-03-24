@@ -1,14 +1,14 @@
 {
   "name": "medium-blog-backend",
   "version": "1.0.0",
-  "description": "A simple backend to fetch Medium RSS feed",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "axios": "^1.5.1",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "xml2js": "^0.4.23"
   }
 }
