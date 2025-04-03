@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors()); // Enable CORS for frontend requests
 
-const MEDIUM_RSS_URL = "https://medium.com/feed/@ayushhardeniya.profile"; 
+const MEDIUM_RSS_URL = "https://medium.com/feed/@ayushHardeniya"; 
 
 // Default Route
 app.get("/", (req, res) => {
